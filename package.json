@@ -1,0 +1,23 @@
+{
+  "name": "movie_demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "react": "^16.4.0-alpha.0911da3",
+    "react-devtools": "^3.1.0",
+    "react-dom": "^16.4.0-alpha.0911da3",
+    "react-perf-devtool": "^3.0.5",
+    "react-scripts": "1.1.1",
+    "simple-cache-provider": "^0.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "v8-profiler": "^5.7.0"
+  }
+}
