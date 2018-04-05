@@ -1,8 +1,9 @@
-# movie-demo (this a demo for [react-fiberline](https://github.com/reactFiberline/react-fiberline)!)
+# movie-demo 
+This is a version of [this movie demo](https://codesandbox.io/s/5zk7x551vk) that lets you inspect some of the fiber operations that are happening under the hood.  Fiber is *intense*, it is complicated and has a lot of nuance to it. This tool is a great way to start understanding how things will work with the new architecture!
 
 ## Getting Started
 ### Step 1
-Install the Fiberline Chrome extension -- [found here](www.google.com)
+Watch [react-fiberline](https://github.com/reactFiberline/react-fiberline) to get the visualizer when it is released.
 
 ### Step 2
 Setup the Website
@@ -13,8 +14,9 @@ Setup the Website
 4. `npm start`
 
 ### Step 3
-Inspect the website.
+Inspect the website, it will run on `localhost:3000`
 
-The demo will run on `localhost:3000`, just make sure you have the extension running in chrome.
+1. Open the console in your browser
+2. `fiberData.fiberlineEvents` will display an object with the chronological events 
 
-Open up the inspector and click on the React Fiberline tab.
+
