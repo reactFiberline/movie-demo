@@ -18,5 +18,5 @@ Inspect the website, it will run on `localhost:3000`
 
 1. Open the console in your browser
 2. `fiberData.fiberlineEvents` will display an object with the chronological events 
-
+![console pic](https://github.com/reactFiberline/movie-demo/blob/dev/console.jpg)
 
