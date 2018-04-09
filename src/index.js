@@ -203,7 +203,6 @@ function Results({query, cache, onActiveResultUpdate, activeResult}) {
   const {results} = readMovieSearchResults(cache, query);
   return (
     <div css={{ display: 'flex', flexDirection: 'column' }}>
-      // Only render the first 5. TMDB doesn't let us change the page size.
       {results.slice(0, 5).map(result => {
         return (
           <Result
