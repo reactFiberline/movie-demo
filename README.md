@@ -21,6 +21,6 @@ Check out the Fiberline Tab
 
 #### Use the console tab to display an object with the chronological events of Fiber.
 1. Open the console in your browser
-2. `fiberData.fiberlineEvents` will 
+2. `fiberData.fiberlineEvents` will display the events firing under the hood in React Fiber
 ![console pic](https://github.com/reactFiberline/react-fiberline/blob/master/console.jpg)
 
